@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+
+}
+
+.box1{
+   height: 300px;
+   width: 300px;
+   background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 200px;
+    left: 500px;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;          
+}
+.mouth{
+    height: 20px;
+    width: 140px;
+    background-color: #000;
+    position: relative;
+    top: 80px;
+    border-radius: 10px;
+    transform: rotate(15deg)
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+     position: relative;
+     top: -200px;
+     left: 400px;
+     border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .box2-2 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(136, 56, 56);
+     position: relative;
+     border-radius: 500px;
+ }
+
+ .box3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+     position: relative;
+     top: -400px;
+     left: 700px;
+     border-radius: 500px;
+     display: flex;
+     justify-content: center;
+     align-items: center;  
+ }
+ .box3-3 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(136, 56, 56);
+     position: relative;
+     border-radius: 500px;
+ }
+ .box4{
+    height: 190px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: -548px;
+    right: -500px;
+    border-radius: 550px 550px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+ }
+.box4-left{
+    height: 90px;
+    width: 70px;
+    background-color: aliceblue;
+    position: relative;
+    right: 10px;
+    top: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle1{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(10, 12, 14);
+    position: relative;
+    right: 0px;
+    top: 0px;
+    border-radius: 50px;
+    }
+.box4-right{
+    height: 130px;
+    width: 100px;
+    background-color: aliceblue;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle2{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    right: 0px;
+    top: 0px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.d{
+    height: 10px;
+    width: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.downbox{
+     width: 100vw;
+     height: 300px;
+     background-color: black;
+     position: relative;
+     top: -550px;
+     z-index: auto;
+     z-index: 0;
+     z-index: -1;
+ }
+ h1{
+     padding: 0%;
+     margin: 0%;
+     color: rgb(255, 255, 255);
+     position: relative;
+     left: 1000px;
+     font-size: 55px;
+     font-family: 'Saira Stencil One', cursive;
+ }
+
+ h2{
+    padding: 0%;
+    margin: 0%;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 350px;
+    left: 600px;
+    font-size: 55px;
+    font-family: 'Saira Stencil One', cursive;
+}
+
+nav, ul,li{
+    vertical-align: middle;
+    height: 20px;
+    padding-left: 10px;
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-right: 20px;
+    list-style: none;
+    float: left;
+    
+}
+
+li,a{
+    text-decoration-line: none; 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: blanchedalmond;
+    background-color:#000;
+}
+
+ul{
+    margin-top:30px;
+     
+}
